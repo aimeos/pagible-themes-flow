@@ -54,7 +54,7 @@
     background-color: var(--flow-dark);
 }
 
-.hero:not(:has(.background)) {
+.cms-content > .hero:not(:has(.background)) {
     color-scheme: dark;
     background: var(--flow-waves), var(--flow-dark);
 }
